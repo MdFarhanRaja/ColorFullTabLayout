@@ -1,6 +1,3 @@
-Screenshot![demo] (https://cloud.githubusercontent.com/assets/18304656/23022989/8c53e084-f479-11e6-8df3-40512b4eb293.jpeg)
-
-
 Step 1. Add the JitPack repository to your build file
 
 	allprojects {
@@ -100,3 +97,26 @@ Step 3. Place Is Your Layout
         return icons[position];
     	}
 	 }
+	 
+ Some More Attributes of AwesomeTabBar
+ 
+ 	<attr name="atb_padding" format="dimension" />
+        <attr name="atb_margin" format="dimension" />
+        <attr name="atb_tabWidth" format="dimension" />
+        <attr name="atb_tabHeight" format="dimension" />
+        <attr name="atb_indicatorColor" format="color" />
+        <attr name="atb_indicatorHeight" format="dimension" />
+        <attr name="atb_selectedTabBackgroundColor" format="color" />
+        <attr name="atb_selectedTabTextColor" format="color" />
+        <attr name="atb_selectedTabImageColor" format="color" />
+        <attr name="atb_indicatorLineColor" format="color" />
+        <attr name="atb_noImage" format="boolean" />
+        <attr name="atb_noText" format="boolean" />	
+	
+        <attr name="atb_imagePosition" format="enum"/> // top,bottom,left or right
+	
+        <attr name="atb_imageMargin" format="dimension" />
+        <attr name="atb_imageWidth" format="dimension" />
+        <attr name="atb_imageHeight" format="dimension" />
+        <attr name="atb_textMargin" format="dimension" />
+        <attr name="atb_textSize" format="dimension" />
