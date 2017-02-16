@@ -16,7 +16,7 @@ Step 2. Add the dependency
 	        compile 'com.github.MdFarhanRaja:ColorFullTabLayout:1.0'
 	}
 
-Step 3. Place Is Your Layout
+Step 3. Place Inside Your Layout
 
     <in.galaxyofandroid.awesometablayout.AwesomeTabBar
         android:id="@+id/tabBar"
