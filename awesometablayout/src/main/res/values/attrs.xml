@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AwesomeTabBar">
+        <attr name="atb_padding" format="dimension" />
+        <attr name="atb_margin" format="dimension" />
+        <attr name="atb_tabWidth" format="dimension" />
+        <attr name="atb_tabHeight" format="dimension" />
+        <attr name="atb_indicatorColor" format="color" />
+        <attr name="atb_indicatorHeight" format="dimension" />
+        <attr name="atb_selectedTabBackgroundColor" format="color" />
+        <attr name="atb_selectedTabTextColor" format="color" />
+        <attr name="atb_selectedTabImageColor" format="color" />
+        <attr name="atb_indicatorLineColor" format="color" />
+        <attr name="atb_noImage" format="boolean" />
+        <attr name="atb_noText" format="boolean" />
+        <attr name="atb_imagePosition" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="top" value="1"/>
+            <enum name="right" value="2"/>
+            <enum name="bottom" value="3"/>
+        </attr>
+        <attr name="atb_imageMargin" format="dimension" />
+        <attr name="atb_imageWidth" format="dimension" />
+        <attr name="atb_imageHeight" format="dimension" />
+        <attr name="atb_textMargin" format="dimension" />
+        <attr name="atb_textSize" format="dimension" />
+
+    </declare-styleable>
+</resources>
