@@ -1,4 +1,4 @@
-Screenshot![demo](https://cloud.githubusercontent.com/assets/18304656/23022989/8c53e084-f479-11e6-8df3-40512b4eb293.jpeg)
+Screenshot![demo] (https://cloud.githubusercontent.com/assets/18304656/23022989/8c53e084-f479-11e6-8df3-40512b4eb293.jpeg)
 
 
 Step 1. Add the JitPack repository to your build file
