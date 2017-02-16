@@ -1,3 +1,4 @@
+(https://cloud.githubusercontent.com/assets/18304656/23022824/dd42153e-f478-11e6-9c5f-899d3669b825.jpeg)
 Step 1. Add the JitPack repository to your build file
 
 	allprojects {
