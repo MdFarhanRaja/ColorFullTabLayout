@@ -14,6 +14,8 @@ Step 2. Add the dependency
 
 	dependencies {
 	        compile 'com.github.MdFarhanRaja:ColorFullTabLayout:1.0'
+		or
+		compile 'com.github.MdFarhanRaja:ColorFullTabLayout:1.1' // added  app:atb_fontPath="shadow_light.ttf"
 	}
 
 Step 3. Place Inside Your Layout
