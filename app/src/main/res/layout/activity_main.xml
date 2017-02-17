@@ -21,6 +21,7 @@
         app:atb_indicatorHeight="2dp"
         app:atb_indicatorColor="#bebebe"
         app:atb_imageHeight="30dp"
+        app:atb_fontPath="shadow_light.ttf"
         app:atb_imageWidth="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">

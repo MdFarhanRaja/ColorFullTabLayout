@@ -24,6 +24,7 @@
         <attr name="atb_imageHeight" format="dimension" />
         <attr name="atb_textMargin" format="dimension" />
         <attr name="atb_textSize" format="dimension" />
+        <attr name="atb_fontPath" format="string"/>
 
     </declare-styleable>
 </resources>

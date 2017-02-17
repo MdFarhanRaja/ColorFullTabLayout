@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.PorterDuff;
 import android.graphics.PorterDuffColorFilter;
+import android.graphics.Typeface;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
@@ -43,6 +44,7 @@ public class AwesomeTabBar extends HorizontalScrollView
     private int imageHeight;
     private int textMargin;
     private float textSize;
+    private String fontpath;
 
     private LinearLayout llTabs;
     private View indicator;
@@ -90,6 +92,7 @@ public class AwesomeTabBar extends HorizontalScrollView
             textMargin = typedArray.getDimensionPixelSize(R.styleable.AwesomeTabBar_atb_textMargin, defaultTextMargin);
             int defaultTextSize = context.getResources().getDimensionPixelSize(R.dimen.tab_text_size);
             textSize = typedArray.getDimension(R.styleable.AwesomeTabBar_atb_textSize, defaultTextSize);
+            fontpath=typedArray.getString(R.styleable.AwesomeTabBar_atb_fontPath);
         } finally {
             typedArray.recycle();
         }
@@ -178,6 +181,11 @@ public class AwesomeTabBar extends HorizontalScrollView
         TextView tv = (TextView) tabView.findViewById(R.id.tvText);
         ImageView iv = (ImageView) tabView.findViewById(R.id.ivImage);
         tv.setTextSize(TypedValue.COMPLEX_UNIT_PX, textSize);
+        if(fontpath!=null)
+        {
+            tv.setTypeface(Typeface.createFromAsset(getContext().getAssets(),fontpath));
+        }
+
         setMargins(tv, textMargin, textMargin, textMargin, textMargin);
         setMargins(iv, imageMargin, imageMargin, imageMargin, imageMargin);
         setSizes(iv, imageWidth, imageHeight);
