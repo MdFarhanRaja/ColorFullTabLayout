@@ -14,8 +14,8 @@ Step 2. Add the dependency
 
 	dependencies {
 	        compile 'com.github.MdFarhanRaja:ColorFullTabLayout:1.0'
-		or
-		compile 'com.github.MdFarhanRaja:ColorFullTabLayout:1.1' // added  app:atb_fontPath="shadow_light.ttf"
+			or
+			compile 'com.github.MdFarhanRaja:ColorFullTabLayout:1.1' // added  app:atb_fontPath="shadow_light.ttf"
 	}
 
 Step 3. Place Inside Your Layout
@@ -26,7 +26,7 @@ Step 3. Place Inside Your Layout
         app:atb_indicatorColor="#bebebe"
         app:atb_imageHeight="30dp"
         app:atb_imageWidth="30dp"
-	app:atb_fontPath="shadow_light.ttf"  Availabe in version 1.1
+		app:atb_fontPath="shadow_light.ttf"  Availabe in version 1.1
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
     </in.galaxyofandroid.awesometablayout.AwesomeTabBar>
