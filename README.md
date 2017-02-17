@@ -26,6 +26,7 @@ Step 3. Place Inside Your Layout
         app:atb_indicatorColor="#bebebe"
         app:atb_imageHeight="30dp"
         app:atb_imageWidth="30dp"
+	app:atb_fontPath="shadow_light.ttf" // Availabe in version 1.1
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
     </in.galaxyofandroid.awesometablayout.AwesomeTabBar>
